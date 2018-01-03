@@ -1,0 +1,10 @@
+{
+  "name": "node-on-docker",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "antoni andre <antoniandre.web@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js"
+  }
+}
