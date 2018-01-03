@@ -4,14 +4,14 @@
 
 ## 1. with Express
 
-    _Package.json_
+   _Package.json_
    ```json
    {
-       "name": ...,
-       "version": ...,
-       "description": ...,
-       "author": ...,
-       "main": ...,
+       "name": "...",
+       "version": "...",
+       "description": "...",
+       "author": "...",
+       "main": "...",
        "scripts": {
            "start": "NODE_ENV=production node index.js"
        },
@@ -21,7 +21,7 @@
    }
    ```
 
-    _index.js_
+   _index.js_
    ```js
    const express = require('express');
 
@@ -40,21 +40,21 @@
 
 ## 2. without Express
 
-    _Package.json_
+   _Package.json_
    ```json
    {
-       "name": ...,
-       "version": ...,
-       "description": ...,
-       "author": ...,
-       "main": ...,
+       "name": "...",
+       "version": "...",
+       "description": "...",
+       "author": "...",
+       "main": "...",
        "scripts": {
            "start": "NODE_ENV=production node index.js"
        }
    }
    ```
 
-    _index.js - Don't need express._
+   _index.js - Don't need express._
    ```js
    var http = require('http');
 
